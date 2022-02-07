@@ -166,6 +166,8 @@ void interrupt_for_red(int time){
 			shine_red((HAL_GetTick()/interrupt_flash)%2);
 		}
 }
+
+// das ist nur ein Testkommentar
 void run_lora_run(){
 	shine_all_leds(0);
 
